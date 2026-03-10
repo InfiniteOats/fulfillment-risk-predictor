@@ -1,3 +1,113 @@
+# ----------------------
+# OS / Editor
+# ----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ----------------------
+# Virtual environments
+# ----------------------
+.venv/
+venv/
+env/
+
+# ----------------------
+# Packaging / build
+# ----------------------
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# ----------------------
+# Testing / coverage / lint
+# ----------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# ----------------------
+# Jupyter
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Environment / secrets
+# ----------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ----------------------
+# Logs
+# ----------------------
+logs/
+*.log
+
+# ----------------------
+# ML experiment tracking
+# ----------------------
+mlruns/
+wandb/
+tensorboard/
+runs/
+
+# ----------------------
+# Models / artifacts
+# ----------------------
+artifacts/
+models/
+checkpoints/
+outputs/
+predictions/
+
+# ----------------------
+# Data
+# Keep the folder structure, ignore heavy/local data
+# ----------------------
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep folder placeholders
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Optional small sample data you intentionally keep
+!data/raw/sample.csv
+
+# ----------------------
+# Caches / temp
+# ----------------------
+.cache/
+tmp/
+temp/
+
+# ----------------------
+# Frontend (if app gets UI later)
+# ----------------------
+node_modules/
+.next/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
